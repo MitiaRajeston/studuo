@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
 
       <h1 className="w-full text-center text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
-  Innovons – Créons - Construisons
+  Innovons – Créons - Teste
 </h1>
 
         <p className="max-w-3xl text-sm md:text-lg opacity-90">
