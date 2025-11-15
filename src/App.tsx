@@ -1,16 +1,50 @@
-import { useState } from 'react'
-import Header from './components/Header'
-import Footer from './components/Footer'
+import { useEffect } from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Services from './components/Services';
+import Pricing from './components/Pricing';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+
+
 function App() {
-  const [count, setCount] = useState(0)
+  // Effet pour le chargement des polices
+  useEffect(() => {
+    // Ajouter la police Montserrat
+    const link = document.createElement('link');
+    link.href = 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap';
+    link.rel = 'stylesheet';
+    document.head.appendChild(link);
+
+    // Appliquer la police par défaut
+    document.body.style.fontFamily = "'Montserrat', sans-serif";
+
+    return () => {
+      document.head.removeChild(link);
+    };
+  }, []);
 
   return (
-    <>
-    <Header/>
-     <h1>HELLO WORLS</h1>
-     <Footer/>
-    </>
-  )
+    <div className="min-h-screen bg-white text-gray-900">
+      {/* Barre de navigation */}
+      <Navbar />
+
+      {/* Sections de la page */}
+      <main>
+        <Hero />
+        <About />
+        <Services />
+        <Pricing />
+        <Portfolio />
+        <Contact />
+      </main>
+
+      {/* Pied de page */}
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
