@@ -1,10 +1,10 @@
 const projects = [
-  { title: 'Projet Web', image: 'https://via.placeholder.com/400x260?text=Projet+Web' },
-  { title: 'Application Mobile', image: 'https://via.placeholder.com/400x260?text=App+Mobile' },
-  { title: 'Projet BTP', image: 'https://via.placeholder.com/400x260?text=BTP' },
-  { title: 'Identité visuelle', image: 'https://via.placeholder.com/400x260?text=Graphisme' },
-  { title: 'Événement Corporate', image: 'https://via.placeholder.com/400x260?text=Événement' },
-  { title: 'Projet sur mesure', image: 'https://via.placeholder.com/400x260?text=Sur+Mesure' },
+  { title: 'Projet Web', image: '/images/teste.png' },
+  { title: 'Application Mobile', image: '/images/teste.png' },
+  { title: 'Projet BTP', image: '/images/teste.png' },
+  { title: 'Identité visuelle', image: '/images/teste.png' },
+  { title: 'Événement Corporate', image: '/images/teste.png' },
+  { title: 'Projet sur mesure', image: '/images/teste.png' },
 ];
 
 const Portfolio = () => {

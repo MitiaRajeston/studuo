@@ -12,15 +12,15 @@ const Hero = () => {
       <div className="section-container flex flex-col items-center text-center gap-6 animate-fadeInUp">
         <div className="mb-4">
           <img
-            src="/logo.svg"
+            src="/images/Logo_StuDuo.png"
             alt="Logo InnoVision"
             className="mx-auto h-24 w-24 md:h-32 md:w-32 object-contain"
           />
         </div>
 
-        <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
-          Innovons – Créons - Construisons
-        </h1>
+      <h1 className="w-full text-center text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
+  Innovons – Créons - Construisons
+</h1>
 
         <p className="max-w-3xl text-sm md:text-lg opacity-90">
           Nous sommes une entreprise dynamique, présente dans plusieurs secteurs d&apos;activité, qui se distingue par
