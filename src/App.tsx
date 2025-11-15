@@ -6,10 +6,9 @@ import Services from './components/Services';
 import Pricing from './components/Pricing';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
-   <SpeedInsights />
+ 
   // Effet pour le chargement des polices
   useEffect(() => {
     // Ajouter la police Montserrat
