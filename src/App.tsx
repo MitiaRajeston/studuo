@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
+   <SpeedInsights />
   // Effet pour le chargement des polices
   useEffect(() => {
     // Ajouter la police Montserrat
